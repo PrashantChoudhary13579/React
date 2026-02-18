@@ -5,3 +5,6 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
 })
+
+// in this we can change the configuration of the vite
+// we can also start this react based project on different port of the vite using this.

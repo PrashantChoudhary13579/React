@@ -1,3 +1,5 @@
+# It include those files and folder, which we don't want to upload on the github.
+
 # Logs
 logs
 *.log
@@ -7,7 +9,8 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
+# we don't push this file on the github.. - tell you later.
+node_modules 
 dist
 dist-ssr
 *.local

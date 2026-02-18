@@ -1,3 +1,8 @@
+// tells us about which files will be render 
+// what will be the version of the javascript, react 
+// we can make the rules - max length of the variable , error if a variable is declared but not used..
+
+
 import js from '@eslint/js'
 import globals from 'globals'
 import reactHooks from 'eslint-plugin-react-hooks'
